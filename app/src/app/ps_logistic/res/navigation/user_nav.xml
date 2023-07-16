@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/user_nav"
+    app:startDestination="@id/logisticHomeBlankFragment">
+    <fragment
+        android:id="@+id/logisticHomeBlankFragment"
+        android:name="com.priyoshop.master.home.LogisticHomeBlankFragment"
+        android:label="fragment_logistic_home_blank"
+        tools:layout="@layout/fragment_logistic_home_blank" >
+        <action
+            android:id="@+id/action_logisticHomeBlankFragment_to_logisticBlankFragment2"
+            app:destination="@id/logisticBlankFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/logisticBlankFragment2"
+        android:name="com.priyoshop.master.home.LogisticBlankFragment2"
+        android:label="fragment_logistic_blank2"
+        tools:layout="@layout/fragment_logistic_blank2" />
+</navigation>

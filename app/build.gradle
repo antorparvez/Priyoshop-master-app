@@ -31,6 +31,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
 
+
         release {
             minifyEnabled true
             shrinkResources true
@@ -51,12 +52,35 @@ android {
             // Add other retail-specific configurations here
         }
 
+        agent {
+            dimension "appType"
+            versionCode 124
+            versionName "1.2.4"
+            applicationId "com.priyoshop.agent"
+            resValue "string", "app_name", "PS Agent"
+            manifestPlaceholders = [appIcon: "@mipmap/ic_launcher"]
+            // Add other Agent-specific configurations here
+        }
+
+
+
         logistic {
             dimension "appType"
             versionCode 1
             versionName "1.0.0"
             applicationId "com.priyoshop.logistic"
-            resValue "string", "app_name", "Priyoshop Logistic"
+            resValue "string", "app_name", "PS Logistic"
+            manifestPlaceholders = [appIcon: "@mipmap/ic_launcher"]
+            // Add other logistic-specific configurations here
+        }
+
+
+        admin {
+            dimension "appType"
+            versionCode 1
+            versionName "1.0.0"
+            applicationId "com.priyoshop.admin"
+            resValue "string", "app_name", "PS Admin"
             manifestPlaceholders = [appIcon: "@mipmap/ic_launcher"]
             // Add other logistic-specific configurations here
         }
@@ -64,15 +88,16 @@ android {
 
     sourceSets {
         retail {
-            java.srcDirs = ['src/app/retail/java']
-            res.srcDirs = ['src/app/retail/res']
+            java.srcDirs = ['src/app/ps_retail/java']
+            res.srcDirs = ['src/app/ps_retail/res']
         }
 
         logistic {
-            java.srcDirs = ['src/app/logistic/java']
-            res.srcDirs = ['src/app/logistic/res']
+            java.srcDirs = ['src/app/ps_logistic/java']
+            res.srcDirs = ['src/app/ps_logistic/res']
         }
     }
+
     renameAPK(applicationVariants, defaultConfig)
 
     compileOptions {

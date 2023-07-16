@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatDelegate
 import dagger.hilt.android.HiltAndroidApp
 
 @HiltAndroidApp
-class RetailApplication : Application() {
+class PriyoShopApplication : Application() {
 
     override fun onCreate() {
         super.onCreate()
