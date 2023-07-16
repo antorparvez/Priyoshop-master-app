@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary_2">#E30047</color> <!--Change this color  PriyoshopPink color is #E30047-->
+    <color name="colorPrimary">#E30047</color> <!--Change this color -->
+    <color name="colorPrimaryDark">#C90544</color> <!--Change this color dark  previous #C90544-->
+    <color name="colorPrimaryLite">#FABFD2</color>  <!--Change this color Lite previous color #FABFD2-->
+    <color name="colorAccent">#E30047</color>   <!--Change this color accent -->
+    <color name="color_white">#ffffff</color>
+    <color name="color_black">#000000</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="medium_gray">#f3f3f3</color>
+    <color name="light_slate_gray">#778899</color>
+    <color name="slate_gray">#708090</color>
+    <color name="light_gray_2">#EAEBED</color>
+    <color name="slate_blue">#6A5ACD</color>
+    <color name="color_transparent">#00000000</color>
+    <color name="color_cream">#EEEEEE</color>
+    <color name="gray">#838383</color>
+    <color name="light_grey">#D3D3D3</color>
+
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="green">#008000</color>
+
+    <color name="light_pink">#FFB6C1</color>
+    <color name="orange">#FFA500</color>
+    <color name="light_salmon">#FFA07A</color>
+    <color name="dark_orange">#FF8C00</color>
+    <color name="coral">#ffefef</color>
+    <color name="hot_pink">#FF69B4</color>
+    <color name="tomato">#FF6347</color>
+    <color name="orange_red">#FF4500</color>
+    <color name="profile_red">#ffefef</color>
+    <color name="red">#FF0000</color>
+    <color name="wheat">#F5DEB3</color>
+
+
+</resources>

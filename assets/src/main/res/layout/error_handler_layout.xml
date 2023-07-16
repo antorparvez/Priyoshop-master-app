@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/errorLL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingVertical="@dimen/m20"
+    android:visibility="visible">
+
+    <ImageView
+        android:id="@+id/errorImageView"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_120sdp"
+        android:backgroundTint="@color/colorPrimary"
+        android:contentDescription="@string/image_content_description"
+        android:src="@drawable/ic_error"
+        app:layout_constraintBottom_toTopOf="@+id/errorTitleTV"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <com.priyoshop.assets.view.CustomBoldTv
+        android:id="@+id/errorTitleTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/m24"
+        android:gravity="center"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/h6"
+        app:layout_constraintBottom_toTopOf="@+id/errorMessageTv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/errorImageView"
+        tools:text="something went wrong" />
+
+    <com.priyoshop.assets.view.CustomTV
+        android:id="@+id/errorMessageTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/m34"
+        android:layout_marginTop="@dimen/m12"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/networkErrorBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/errorTitleTV"
+        tools:text="Lorem ipsum dolor sit amet" />
+
+    <com.priyoshop.assets.view.CustomBtn
+        android:id="@+id/dataErrorBtn"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/m16"
+        android:background="@drawable/bg_black_rounded_stroke_25"
+        android:backgroundTint="@color/color_black"
+        android:text="@string/error_retry"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/errorMessageTv" />
+
+    <com.priyoshop.assets.view.CustomBtn
+        android:id="@+id/networkErrorBtn"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/m16"
+        android:background="@drawable/bg_black_rounded_stroke_25"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/error_retry"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/errorMessageTv" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="errorImageView,errorTitleTV,errorMessageTv" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

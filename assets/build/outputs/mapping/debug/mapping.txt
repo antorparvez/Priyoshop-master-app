@@ -1,0 +1,35 @@
+# compiler: R8
+# compiler_version: 3.2.74
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.0"}
+# pg_map_id: a3c6159
+# pg_map_hash: SHA-256 a3c61599342ef2f10ee5cb3082d88442f54763e83eb77b5b0a32536a14d7559c
+com.priyoshop.assets.view.CustomBoldTv -> com.priyoshop.assets.view.CustomBoldTv:
+# {"id":"sourceFile","fileName":"CustomBoldTv.kt"}
+    9:11:void <init>(android.content.Context) -> <init>
+    13:15:void <init>(android.content.Context,android.util.AttributeSet) -> <init>
+    17:19:void <init>(android.content.Context,android.util.AttributeSet,int) -> <init>
+    22:24:void applyCustomFont(android.content.Context) -> applyCustomFont
+com.priyoshop.assets.view.CustomBtn -> com.priyoshop.assets.view.CustomBtn:
+# {"id":"sourceFile","fileName":"CustomBtn.kt"}
+    8:10:void <init>(android.content.Context) -> <init>
+    12:14:void <init>(android.content.Context,android.util.AttributeSet) -> <init>
+    16:18:void <init>(android.content.Context,android.util.AttributeSet,int) -> <init>
+    21:23:void applyCustomFont(android.content.Context) -> applyCustomFont
+com.priyoshop.assets.view.CustomET -> com.priyoshop.assets.view.CustomET:
+# {"id":"sourceFile","fileName":"CustomET.kt"}
+    9:11:void <init>(android.content.Context) -> <init>
+    13:15:void <init>(android.content.Context,android.util.AttributeSet) -> <init>
+    17:19:void <init>(android.content.Context,android.util.AttributeSet,int) -> <init>
+    22:24:void applyCustomFont(android.content.Context) -> applyCustomFont
+com.priyoshop.assets.view.CustomTV -> com.priyoshop.assets.view.CustomTV:
+# {"id":"sourceFile","fileName":"CustomTV.kt"}
+    9:11:void <init>(android.content.Context) -> <init>
+    13:15:void <init>(android.content.Context,android.util.AttributeSet) -> <init>
+    17:19:void <init>(android.content.Context,android.util.AttributeSet,int) -> <init>
+    22:24:void applyCustomFont(android.content.Context) -> applyCustomFont
+com.priyoshop.assets.view.FontsOverride -> com.priyoshop.assets.view.FontsOverride:
+# {"id":"sourceFile","fileName":"FontsOverride.kt"}
+    30:30:void <clinit>() -> <clinit>
+    7:7:void <init>() -> <init>
+    32:44:android.graphics.Typeface getTypeface(java.lang.String,android.content.Context) -> getTypeface

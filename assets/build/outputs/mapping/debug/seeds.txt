@@ -1,0 +1,455 @@
+com.priyoshop.assets.R$id
+com.priyoshop.assets.view.CustomET
+com.priyoshop.assets.R$anim
+com.priyoshop.assets.R$layout
+com.priyoshop.assets.view.CustomBoldTv
+com.priyoshop.assets.R$xml
+com.priyoshop.assets.R$dimen
+com.priyoshop.assets.R$font
+com.priyoshop.assets.R$array
+com.priyoshop.assets.R$string
+com.priyoshop.assets.R$mipmap
+com.priyoshop.assets.R
+com.priyoshop.assets.R$style
+com.priyoshop.assets.R$color
+com.priyoshop.assets.view.CustomBtn
+com.priyoshop.assets.R$drawable
+com.priyoshop.assets.view.CustomTV
+com.priyoshop.assets.R$menu
+com.priyoshop.assets.R$dimen: int m34
+com.priyoshop.assets.R$drawable: int ic_chat_red
+com.priyoshop.assets.R$dimen: int regular_font
+com.priyoshop.assets.R$id: int enterQtyEt
+com.priyoshop.assets.R$drawable: int ic_baseline_photo_camera_24
+com.priyoshop.assets.R$color: int colorPrimaryDark
+com.priyoshop.assets.R$dimen: int m5
+com.priyoshop.assets.R$string: int order_no
+com.priyoshop.assets.R$drawable: int ic_toolbar_back
+com.priyoshop.assets.R$drawable: int bg_solid_white_stroke_red_4
+com.priyoshop.assets.R$drawable: int bottom_round
+com.priyoshop.assets.R$id: int btn_increase
+com.priyoshop.assets.R$drawable: int baseline_delete_24
+com.priyoshop.assets.R$string: int image_content_description
+com.priyoshop.assets.R$string: int hint_enter_phone_number
+com.priyoshop.assets.R$string: int my_orders
+com.priyoshop.assets.R$drawable: int ic_top_arrow_for_cupon
+com.priyoshop.assets.R$id: int toolbarCartIV
+com.priyoshop.assets.R$drawable: int ic_note
+com.priyoshop.assets.R$string: int submit_button
+com.priyoshop.assets.R$string: int error_enter_business_vertical
+com.priyoshop.assets.R$string: int all_shipping_addresses
+com.priyoshop.assets.R$color: int light_grey
+com.priyoshop.assets.R$id: int search_barLl
+com.priyoshop.assets.R$string: int select_your_address
+com.priyoshop.assets.R$drawable: int ic_retail_logo
+com.priyoshop.assets.R$drawable: int ic_right_arrow
+com.priyoshop.assets.R$drawable: int et_cursor
+com.priyoshop.assets.R$string: int hisab_btm_nav
+com.priyoshop.assets.R$drawable: int bg_solid_white_bottom_r8
+com.priyoshop.assets.R$string: int edit_profile
+com.priyoshop.assets.R$drawable: int ic_profile
+com.priyoshop.assets.R$string: int no_internet
+com.priyoshop.assets.R$id: int cameraBtn
+com.priyoshop.assets.R$id: int negativeButton
+com.priyoshop.assets.R$drawable: int bg_solid_white_stroke_red_r8
+com.priyoshop.assets.R$drawable: int shopkeepericon
+com.priyoshop.assets.R$drawable: int bg_round_stroke
+com.priyoshop.assets.R$string: int button_done
+com.priyoshop.assets.R$drawable: int ic_down_arrow
+com.priyoshop.assets.R$drawable: int ic_hisab_red
+com.priyoshop.assets.R$drawable: int ic_dlt
+com.priyoshop.assets.R$drawable: int bg_light_pink_rounded_8
+com.priyoshop.assets.R$dimen: int m32
+com.priyoshop.assets.R$drawable: int ic_chat
+com.priyoshop.assets.R$string: int owner_name
+com.priyoshop.assets.R$color: int teal_200
+com.priyoshop.assets.R$id: int dataErrorBtn
+com.priyoshop.assets.R$color: int dark_orange
+com.priyoshop.assets.R$string: int my_shop_photos
+com.priyoshop.assets.R$id: int homeImg
+com.priyoshop.assets.R$drawable: int bg_pink_solid_with_red_stroke_round_8
+com.priyoshop.assets.R$string: int taka_text
+com.priyoshop.assets.R$string: int address_box
+com.priyoshop.assets.R$drawable: int ic_account
+com.priyoshop.assets.R$dimen: int m2
+com.priyoshop.assets.R$dimen: int p12
+com.priyoshop.assets.R$font: int hindsiliguri_medium
+com.priyoshop.assets.R$drawable: int ic_taka_black
+com.priyoshop.assets.R$drawable: int bg_bottom_r10
+com.priyoshop.assets.R$string: int register
+com.priyoshop.assets.R$string: int products
+com.priyoshop.assets.R$dimen: int h3
+com.priyoshop.assets.R$string: int chat_screen_comming_soon
+com.priyoshop.assets.R$id: int image_holder
+com.priyoshop.assets.R$dimen: int input_form_font
+com.priyoshop.assets.R$drawable: int bg_gray_rounded_stroke_r2
+com.priyoshop.assets.R$string: int error_give_eleven_length_numbers
+com.priyoshop.assets.R$dimen: int divider_height
+com.priyoshop.assets.R$string: int shipping_charge
+com.priyoshop.assets.R$drawable: int ic_cross
+com.priyoshop.assets.R$drawable: int bg_all_round_ten
+com.priyoshop.assets.R$drawable: int ic_taka_red
+com.priyoshop.assets.R$dimen: int h4
+com.priyoshop.assets.R$string: int address_nav_drawer
+com.priyoshop.assets.R$string: int error_enter_nid_number
+com.priyoshop.assets.R$string: int current_shipping_address
+com.priyoshop.assets.R$string: int discount_code_title_text
+com.priyoshop.assets.R$dimen: int button_font
+com.priyoshop.assets.R$string: int write_product_qty_here
+com.priyoshop.assets.R$drawable: int ic_location_icon
+com.priyoshop.assets.R$drawable: int ic_tick
+com.priyoshop.assets.R$drawable: int img_down_arrow
+com.priyoshop.assets.R$style: int AlertDialogTransparentBg
+com.priyoshop.assets.R$drawable: int ic_launcher_foreground
+com.priyoshop.assets.R$dimen: int caption
+com.priyoshop.assets.R$id: int positiveButton
+com.priyoshop.assets.R$dimen: int m90
+com.priyoshop.assets.R$string: int title_account
+com.priyoshop.assets.R$string: int chat_btm_nav
+com.priyoshop.assets.R$string: int email_address_hint
+com.priyoshop.assets.R$color: int light_gray_2
+com.priyoshop.assets.R$string: int image
+com.priyoshop.assets.R$string: int account_summary
+com.priyoshop.assets.R$drawable: int bg_home_bottom_nav
+com.priyoshop.assets.R$drawable: int bg_red_solid_with_red_stroke_round_8
+com.priyoshop.assets.R$color: int coral
+com.priyoshop.assets.R$string: int alert_icon
+com.priyoshop.assets.R$array: int items
+com.priyoshop.assets.R$color: int bottom_nav_selection_color
+com.priyoshop.assets.R$drawable: int background_gradient
+com.priyoshop.assets.R$drawable: int ic_account_light_red
+com.priyoshop.assets.R$drawable: int bg_white_solid_with_gray_stroke_round_8
+com.priyoshop.assets.R$drawable: int bg_gray_rounded_stroke_r10
+com.priyoshop.assets.R$dimen: int subtitle_2_medium
+com.priyoshop.assets.R$string: int login_title_text
+com.priyoshop.assets.R$string: int phone_number
+com.priyoshop.assets.R$layout: int layout_ps_counterview
+com.priyoshop.assets.R$id: int toolbarBackIV
+com.priyoshop.assets.R$string: int dhaka
+com.priyoshop.assets.R$drawable: int ic_cart
+com.priyoshop.assets.R$drawable: int ic_email
+com.priyoshop.assets.R$color: int bottom_nav_item_color
+com.priyoshop.assets.R$string: int title_add_address
+com.priyoshop.assets.R$string: int terms_condition_text
+com.priyoshop.assets.R$string: int already_registered
+com.priyoshop.assets.R$string: int deals_btm_nav
+com.priyoshop.assets.R$drawable: int basic_star_image
+com.priyoshop.assets.R$id: int errorImageView
+com.priyoshop.assets.R$string: int title_log_in
+com.priyoshop.assets.R$string: int resend_otp
+com.priyoshop.assets.R$dimen: int p4
+com.priyoshop.assets.R$string: int go_back_home
+com.priyoshop.assets.R$string: int details
+com.priyoshop.assets.R$drawable: int ic_add_image
+com.priyoshop.assets.R$drawable: int button_rectangle
+com.priyoshop.assets.R$id: int removeIv
+com.priyoshop.assets.R$string: int see_all_home
+com.priyoshop.assets.R$color: int colorAccent
+com.priyoshop.assets.R$drawable: int bogo_logo
+com.priyoshop.assets.R$drawable: int ic_profile_avatar
+com.priyoshop.assets.R$drawable: int ic_handshake
+com.priyoshop.assets.R$string: int write_ur_code
+com.priyoshop.assets.R$string: int error_enter_police_station
+com.priyoshop.assets.R$color: int orange
+com.priyoshop.assets.R$string: int filter
+com.priyoshop.assets.R$string: int invoice_no_hint
+com.priyoshop.assets.R$string: int error_enter_address
+com.priyoshop.assets.R$id: int imgLabelTv
+com.priyoshop.assets.R$string: int comma
+com.priyoshop.assets.R$drawable: int ic_delete_red
+com.priyoshop.assets.R$layout: int dialog_add_qty
+com.priyoshop.assets.R$dimen: int p8
+com.priyoshop.assets.R$color: int light_salmon
+com.priyoshop.assets.R$drawable: int ic_blank_user
+com.priyoshop.assets.R$drawable: int bg_solid_light_red_stroke_red_bottom_r8
+com.priyoshop.assets.R$string: int delivery_text
+com.priyoshop.assets.R$drawable: int bg_bottom_nav_active_bar
+com.priyoshop.assets.R$string: int logout_nav_drawer
+com.priyoshop.assets.R$dimen: int m40
+com.priyoshop.assets.R$string: int contact_person_name
+com.priyoshop.assets.R$string: int profile_nav_drawer
+com.priyoshop.assets.R$color: int purple_500
+com.priyoshop.assets.R$color: int slate_gray
+com.priyoshop.assets.R$id: int deleteBtn
+com.priyoshop.assets.R$string: int my_profile
+com.priyoshop.assets.R$string: int Change
+com.priyoshop.assets.R$drawable: int ic_info
+com.priyoshop.assets.R$drawable: int ic_ghor
+com.priyoshop.assets.R$color: int tomato
+com.priyoshop.assets.R$drawable: int ic_cart_red
+com.priyoshop.assets.R$string: int kg
+com.priyoshop.assets.R$string: int order_success
+com.priyoshop.assets.R$color: int wheat
+com.priyoshop.assets.R$string: int add_more_btn
+com.priyoshop.assets.R$string: int error_please_give_valid_nid_numbers
+com.priyoshop.assets.R$string: int re_order
+com.priyoshop.assets.R$string: int error_please_give_valid_numbers
+com.priyoshop.assets.R$drawable: int ic_image_vactor
+com.priyoshop.assets.R$drawable: int ic_home
+com.priyoshop.assets.R$drawable: int shape
+com.priyoshop.assets.R$dimen: int body_2_medium
+com.priyoshop.assets.R$string: int no
+com.priyoshop.assets.R$string: int apply_btn_text
+com.priyoshop.assets.R$id: int animationView
+com.priyoshop.assets.R$dimen: int subtitle_1_regular
+com.priyoshop.assets.R$style: int AppTheme
+com.priyoshop.assets.R$string: int proceed_next_btn
+com.priyoshop.assets.R$drawable: int ic_plus_bg_black
+com.priyoshop.assets.R$string: int nid_error_text
+com.priyoshop.assets.R$string: int shop_name_registration
+com.priyoshop.assets.R$anim: int to_left
+com.priyoshop.assets.R$drawable: int ic_hisab
+com.priyoshop.assets.R$dimen: int small
+com.priyoshop.assets.R$style: int CustomActivityAnimation
+com.priyoshop.assets.R$drawable: int bg_white_solid_gray_stroke_round_16
+com.priyoshop.assets.R$color: int black
+com.priyoshop.assets.R$string: int address
+com.priyoshop.assets.R$dimen: int m8
+com.priyoshop.assets.R$color: int purple_700
+com.priyoshop.assets.R$string: int account_options
+com.priyoshop.assets.R$color: int slate_blue
+com.priyoshop.assets.R$id: int cartBadgeIV
+com.priyoshop.assets.R$id: int img
+com.priyoshop.assets.R$string: int total_price
+com.priyoshop.assets.R$string: int process_btn
+com.priyoshop.assets.R$dimen: int m15
+com.priyoshop.assets.R$string: int totalBill
+com.priyoshop.assets.R$string: int otp_bottom_text
+com.priyoshop.assets.R$string: int message_enter_otp_code
+com.priyoshop.assets.R$mipmap: int ic_launcher_foreground
+com.priyoshop.assets.R$dimen: int h6
+com.priyoshop.assets.R$string: int addressList_bottom_text
+com.priyoshop.assets.R$string: int nid
+com.priyoshop.assets.R$id: int networkErrorBtn
+com.priyoshop.assets.R$string: int title_registration
+com.priyoshop.assets.R$color: int light_slate_gray
+com.priyoshop.assets.R$id: int description
+com.priyoshop.assets.R$font: int hindsiliguri_light
+com.priyoshop.assets.R$drawable: int ic_settings_rounded
+com.priyoshop.assets.R$color: int light_pink
+com.priyoshop.assets.R$drawable: int ic_arrow_back_white
+com.priyoshop.assets.R$string: int amount_hint
+com.priyoshop.assets.R$drawable: int mosola
+com.priyoshop.assets.R$dimen: int m72
+com.priyoshop.assets.R$string: int sub_total
+com.priyoshop.assets.R$string: int go_forward
+com.priyoshop.assets.R$string: int caption_phone_no
+com.priyoshop.assets.R$string: int district_registration
+com.priyoshop.assets.R$id: int progressBar
+com.priyoshop.assets.R$drawable: int bg_red_solid_red_stroke_4
+com.priyoshop.assets.R$string: int message_we_are_sorry
+com.priyoshop.assets.R$style: int AlertDialogCustom
+com.priyoshop.assets.R$dimen: int m60
+com.priyoshop.assets.R$string: int my_documents
+com.priyoshop.assets.R$string: int add_new_address
+com.priyoshop.assets.R$layout: int error_handler_layout
+com.priyoshop.assets.R$dimen: int p16
+com.priyoshop.assets.R$string: int otp_title_text
+com.priyoshop.assets.R$string: int invalid_username
+com.priyoshop.assets.R$string: int qty
+com.priyoshop.assets.R$anim: int to_right
+com.priyoshop.assets.R$drawable: int ic_badge
+com.priyoshop.assets.R$drawable: int ic_filter
+com.priyoshop.assets.R$drawable: int ic_deals_red
+com.priyoshop.assets.R$font: int hindsiliguri_semibold
+com.priyoshop.assets.R$string: int product_name
+com.priyoshop.assets.R$drawable: int dummy_img_banner_rice
+com.priyoshop.assets.R$style: int toolbarSubTitle
+com.priyoshop.assets.R$drawable: int reatil_store_art
+com.priyoshop.assets.R$drawable: int rice_bag
+com.priyoshop.assets.R$string: int no_product_found
+com.priyoshop.assets.R$color: int medium_gray
+com.priyoshop.assets.R$drawable: int ic_award_badge
+com.priyoshop.assets.R$string: int register_btn
+com.priyoshop.assets.R$dimen: int m65
+com.priyoshop.assets.R$string: int error_enter_name
+com.priyoshop.assets.R$dimen: int h1
+com.priyoshop.assets.R$drawable: int ic_arrow_left
+com.priyoshop.assets.R$drawable: int ic_log_out
+com.priyoshop.assets.R$drawable: int dal
+com.priyoshop.assets.R$dimen: int m100
+com.priyoshop.assets.R$string: int price_hint
+com.priyoshop.assets.R$color: int red
+com.priyoshop.assets.R$drawable: int ic_address
+com.priyoshop.assets.R$string: int format_time
+com.priyoshop.assets.R$drawable: int ic_menu
+com.priyoshop.assets.R$color: int profile_red
+com.priyoshop.assets.R$string: int terms_and_condition_text
+com.priyoshop.assets.R$drawable: int bg_white_solid_with_gray_stroke_round_40
+com.priyoshop.assets.R$drawable: int bg_black_rounded_stroke_25
+com.priyoshop.assets.R$string: int yes
+com.priyoshop.assets.R$string: int your_total_bill
+com.priyoshop.assets.R$string: int error_enter_shop_name
+com.priyoshop.assets.R$string: int ok
+com.priyoshop.assets.R$drawable: int ic_add_white_16dp
+com.priyoshop.assets.R$color: int colorPrimary
+com.priyoshop.assets.R$id: int errorLL
+com.priyoshop.assets.R$color: int green
+com.priyoshop.assets.R$string: int total_prixe
+com.priyoshop.assets.R$id: int errorTitleTV
+com.priyoshop.assets.R$string: int title_update_address
+com.priyoshop.assets.R$drawable: int ic_search
+com.priyoshop.assets.R$string: int cart_title
+com.priyoshop.assets.R$string: int discount_cupon
+com.priyoshop.assets.R$string: int categories
+com.priyoshop.assets.R$drawable: int priyo_shop_logo
+com.priyoshop.assets.R$string: int nid_number_registration
+com.priyoshop.assets.R$drawable: int ic_minus_square_red
+com.priyoshop.assets.R$string: int contact_person_phone
+com.priyoshop.assets.R$string: int phone_number_registration
+com.priyoshop.assets.R$color: int color_cream
+com.priyoshop.assets.R$drawable: int group_102
+com.priyoshop.assets.R$string: int title_order_details
+com.priyoshop.assets.R$string: int edit
+com.priyoshop.assets.R$string: int error_retry
+com.priyoshop.assets.R$string: int write_product_name_here
+com.priyoshop.assets.R$color: int teal_700
+com.priyoshop.assets.R$id: int btn_decrease
+com.priyoshop.assets.R$string: int mirpur
+com.priyoshop.assets.R$dimen: int size_0dp
+com.priyoshop.assets.R$string: int search_hare
+com.priyoshop.assets.R$string: int image_delete_button
+com.priyoshop.assets.R$string: int welcome
+com.priyoshop.assets.R$string: int ur_bill
+com.priyoshop.assets.R$string: int account_btm_nav
+com.priyoshop.assets.R$string: int your_nid_number
+com.priyoshop.assets.R$dimen: int h5
+com.priyoshop.assets.R$drawable: int ic_empty_cart
+com.priyoshop.assets.R$string: int edit_your_profile
+com.priyoshop.assets.R$drawable: int welcome
+com.priyoshop.assets.R$dimen: int m150
+com.priyoshop.assets.R$string: int picture
+com.priyoshop.assets.R$string: int take_picture
+com.priyoshop.assets.R$dimen: int m20
+com.priyoshop.assets.R$string: int police_station
+com.priyoshop.assets.R$drawable: int drawble_round_all
+com.priyoshop.assets.R$string: int error_enter_contact_number
+com.priyoshop.assets.R$drawable: int retail_bike
+com.priyoshop.assets.R$id: int toolbarconst
+com.priyoshop.assets.R$drawable: int ic_shopping_bag
+com.priyoshop.assets.R$string: int title_address
+com.priyoshop.assets.R$dimen: int error
+com.priyoshop.assets.R$id: int errorMessageTv
+com.priyoshop.assets.R$xml: int network_security_config
+com.priyoshop.assets.R$dimen: int small_subtitle
+com.priyoshop.assets.R$color: int hot_pink
+com.priyoshop.assets.R$string: int add_new_address_button
+com.priyoshop.assets.R$string: int yes_bangla
+com.priyoshop.assets.R$font: int hindsiliguri_bold
+com.priyoshop.assets.R$id: int titleTV
+com.priyoshop.assets.R$drawable: int ic_camera_picture
+com.priyoshop.assets.R$drawable: int ic_edit
+com.priyoshop.assets.R$color: int colorPrimaryLite
+com.priyoshop.assets.R$drawable: int icon_bg
+com.priyoshop.assets.R$id: int cartGv
+com.priyoshop.assets.R$dimen: int m12
+com.priyoshop.assets.R$anim: int from_right
+com.priyoshop.assets.R$layout: int dialog_no_internet
+com.priyoshop.assets.R$string: int change
+com.priyoshop.assets.R$string: int delete
+com.priyoshop.assets.R$string: int rice_hint_text
+com.priyoshop.assets.R$font: int hindsiliguri_regular
+com.priyoshop.assets.R$drawable: int ic_retailer_rank
+com.priyoshop.assets.R$dimen: int m45
+com.priyoshop.assets.R$dimen: int m4
+com.priyoshop.assets.R$drawable: int ripple_solid_white_r50
+com.priyoshop.assets.R$string: int error_network_issue
+com.priyoshop.assets.R$dimen: int m10
+com.priyoshop.assets.R$drawable: int ic_hisab_light_red
+com.priyoshop.assets.R$string: int click_to_change_the_number
+com.priyoshop.assets.R$drawable: int ic_error
+com.priyoshop.assets.R$drawable: int ic_order_confirm
+com.priyoshop.assets.R$string: int discount
+com.priyoshop.assets.R$id: int group
+com.priyoshop.assets.R$string: int payment_method
+com.priyoshop.assets.R$drawable: int img_up_arrow
+com.priyoshop.assets.R$dimen: int p2
+com.priyoshop.assets.R$string: int error_enter_district
+com.priyoshop.assets.R$drawable: int ic_chat_light_red
+com.priyoshop.assets.R$string: int total
+com.priyoshop.assets.R$layout: int include_toolbar
+com.priyoshop.assets.R$drawable: int ic_plus_square_red
+com.priyoshop.assets.R$drawable: int ic_bottom_arrow_for_cupon
+com.priyoshop.assets.R$drawable: int ic_tab_close_icon
+com.priyoshop.assets.R$string: int priyoshop_retail
+com.priyoshop.assets.R$string: int payment
+com.priyoshop.assets.R$string: int otp_number
+com.priyoshop.assets.R$drawable: int splash_screen_img
+com.priyoshop.assets.R$layout: int dialog_alert
+com.priyoshop.assets.R$menu: int bottom_nav_menu
+com.priyoshop.assets.R$style: int toolbarTitle
+com.priyoshop.assets.R$string: int error_email
+com.priyoshop.assets.R$color: int gray
+com.priyoshop.assets.R$string: int na_bangla
+com.priyoshop.assets.R$string: int search
+com.priyoshop.assets.R$drawable: int ic_launcher_background
+com.priyoshop.assets.R$string: int place_order
+com.priyoshop.assets.R$anim: int from_left
+com.priyoshop.assets.R$drawable: int aci_logo
+com.priyoshop.assets.R$drawable: int ic_edit_amount
+com.priyoshop.assets.R$color: int colorPrimary_2
+com.priyoshop.assets.R$drawable: int ic_account_red
+com.priyoshop.assets.R$string: int user_profile_option_hint
+com.priyoshop.assets.R$id: int cardView
+com.priyoshop.assets.R$layout: int custom_image_holder
+com.priyoshop.assets.R$drawable: int ic_document
+com.priyoshop.assets.R$string: int discount_code_hint_text
+com.priyoshop.assets.R$string: int go_backward
+com.priyoshop.assets.R$string: int app_name
+com.priyoshop.assets.R$drawable: int ic_deals_light_red
+com.priyoshop.assets.R$dimen: int m54
+com.priyoshop.assets.R$drawable: int ic_baki
+com.priyoshop.assets.R$drawable: int ic_remove_white_16dp
+com.priyoshop.assets.R$dimen: int body_1_regular
+com.priyoshop.assets.R$string: int hello_blank_fragment
+com.priyoshop.assets.R$string: int shop_address
+com.priyoshop.assets.R$color: int white
+com.priyoshop.assets.R$string: int order_btm_nav
+com.priyoshop.assets.R$string: int dialog_title
+com.priyoshop.assets.R$drawable: int ic_locations_black
+com.priyoshop.assets.R$id: int buttonTv
+com.priyoshop.assets.R$id: int title
+com.priyoshop.assets.R$string: int Business_Vertical
+com.priyoshop.assets.R$drawable: int ic_messenger_light_red
+com.priyoshop.assets.R$color: int custom_thum_selector
+com.priyoshop.assets.R$color: int orange_red
+com.priyoshop.assets.R$dimen: int h7
+com.priyoshop.assets.R$string: int messenger_btm_nav
+com.priyoshop.assets.R$dimen: int m16
+com.priyoshop.assets.R$dimen: int m24
+com.priyoshop.assets.R$drawable: int ic_order_details
+com.priyoshop.assets.R$string: int cart
+com.priyoshop.assets.R$color: int color_white
+com.priyoshop.assets.R$id: int no_internet_msg
+com.priyoshop.assets.R$dimen: int h2
+com.priyoshop.assets.R$string: int verify_otp_button
+com.priyoshop.assets.R$string: int your_name_registration
+com.priyoshop.assets.R$string: int mandatory
+com.priyoshop.assets.R$color: int color_black
+com.priyoshop.assets.R$color: int color_transparent
+com.priyoshop.assets.R$color: R$color()
+com.priyoshop.assets.view.CustomBoldTv: CustomBoldTv(android.content.Context,android.util.AttributeSet)
+com.priyoshop.assets.view.CustomBtn: CustomBtn(android.content.Context)
+com.priyoshop.assets.view.CustomBtn: CustomBtn(android.content.Context,android.util.AttributeSet)
+com.priyoshop.assets.R$font: R$font()
+com.priyoshop.assets.R$string: R$string()
+com.priyoshop.assets.R: R()
+com.priyoshop.assets.R$anim: R$anim()
+com.priyoshop.assets.R$style: R$style()
+com.priyoshop.assets.R$layout: R$layout()
+com.priyoshop.assets.R$array: R$array()
+com.priyoshop.assets.view.CustomTV: CustomTV(android.content.Context,android.util.AttributeSet)
+com.priyoshop.assets.view.CustomET: CustomET(android.content.Context,android.util.AttributeSet)
+com.priyoshop.assets.view.CustomBoldTv: CustomBoldTv(android.content.Context)
+com.priyoshop.assets.view.CustomET: CustomET(android.content.Context,android.util.AttributeSet,int)
+com.priyoshop.assets.view.CustomTV: CustomTV(android.content.Context,android.util.AttributeSet,int)
+com.priyoshop.assets.R$dimen: R$dimen()
+com.priyoshop.assets.R$xml: R$xml()
+com.priyoshop.assets.R$id: R$id()
+com.priyoshop.assets.R$mipmap: R$mipmap()
+com.priyoshop.assets.view.CustomBoldTv: CustomBoldTv(android.content.Context,android.util.AttributeSet,int)
+com.priyoshop.assets.R$drawable: R$drawable()
+com.priyoshop.assets.view.CustomET: CustomET(android.content.Context)
+com.priyoshop.assets.R$menu: R$menu()
+com.priyoshop.assets.view.CustomTV: CustomTV(android.content.Context)
+com.priyoshop.assets.view.CustomBtn: CustomBtn(android.content.Context,android.util.AttributeSet,int)

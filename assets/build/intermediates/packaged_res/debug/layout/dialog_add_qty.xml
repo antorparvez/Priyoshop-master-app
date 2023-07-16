@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingTop="@dimen/m12"
+    android:paddingRight="@dimen/m8"
+    android:paddingStart="@dimen/m8"
+    tools:ignore="MissingDefaultResource">
+
+    <ImageView
+        android:id="@+id/removeIv"
+        android:layout_width="@dimen/m20"
+        android:layout_height="@dimen/m20"
+        android:layout_gravity="right"
+        android:layout_marginEnd="@dimen/m5"
+        android:contentDescription="@string/image_content_description"
+        android:src="@drawable/ic_cross"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/search_barLl" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/search_barLl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/m24"
+        android:layout_marginTop="@dimen/m8"
+        android:layout_marginEnd="@dimen/m24"
+        android:layout_marginBottom="@dimen/m8"
+        android:background="@drawable/bg_white_solid_with_gray_stroke_round_8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.priyoshop.assets.view.CustomET
+            android:id="@+id/enterQtyEt"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/m34"
+            android:background="@color/color_transparent"
+            android:gravity="center|start"
+            android:hint="@string/write_product_qty_here"
+            android:inputType="number"
+            android:paddingStart="@dimen/m16"
+            android:paddingEnd="56dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/caption"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/buttonTv"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.priyoshop.assets.view.CustomTV
+            android:id="@+id/buttonTv"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:background="@drawable/bg_red_solid_with_red_stroke_round_8"
+            android:backgroundTint="@color/colorPrimary"
+            android:drawablePadding="@dimen/m4"
+            android:gravity="center"
+            android:paddingStart="@dimen/m16"
+            android:paddingEnd="@dimen/m16"
+            android:text="@string/ok"
+            android:textColor="@color/white"
+            android:textSize="@dimen/body_1_regular"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/enterQtyEt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/enterQtyEt" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

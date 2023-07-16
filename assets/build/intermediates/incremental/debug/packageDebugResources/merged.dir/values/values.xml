@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items">
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="colorAccent">#E30047</color>
+    <color name="colorPrimary">#E30047</color>
+    <color name="colorPrimaryDark">#C90544</color>
+    <color name="colorPrimaryLite">#FABFD2</color>
+    <color name="colorPrimary_2">#E30047</color>
+    <color name="color_black">#000000</color>
+    <color name="color_cream">#EEEEEE</color>
+    <color name="color_transparent">#00000000</color>
+    <color name="color_white">#ffffff</color>
+    <color name="coral">#ffefef</color>
+    <color name="dark_orange">#FF8C00</color>
+    <color name="gray">#838383</color>
+    <color name="green">#008000</color>
+    <color name="hot_pink">#FF69B4</color>
+    <color name="light_gray_2">#EAEBED</color>
+    <color name="light_grey">#D3D3D3</color>
+    <color name="light_pink">#FFB6C1</color>
+    <color name="light_salmon">#FFA07A</color>
+    <color name="light_slate_gray">#778899</color>
+    <color name="medium_gray">#f3f3f3</color>
+    <color name="orange">#FFA500</color>
+    <color name="orange_red">#FF4500</color>
+    <color name="profile_red">#ffefef</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="red">#FF0000</color>
+    <color name="slate_blue">#6A5ACD</color>
+    <color name="slate_gray">#708090</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="tomato">#FF6347</color>
+    <color name="wheat">#F5DEB3</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="body_1_regular">16sp</dimen>
+    <dimen name="body_2_medium">14sp</dimen>
+    <dimen name="button_font">14sp</dimen>
+    <dimen name="caption">12sp</dimen>
+    <dimen name="divider_height">5dp</dimen>
+    <dimen name="error">12sp</dimen>
+    <dimen name="h1">96sp</dimen>
+    <dimen name="h2">60sp</dimen>
+    <dimen name="h3">48sp</dimen>
+    <dimen name="h4">34sp</dimen>
+    <dimen name="h5">24sp</dimen>
+    <dimen name="h6">18sp</dimen>
+    <dimen name="h7">22sp</dimen>
+    <dimen name="input_form_font">16sp</dimen>
+    <dimen name="m10">10dp</dimen>
+    <dimen name="m100">100dp</dimen>
+    <dimen name="m12">12dp</dimen>
+    <dimen name="m15">14dp</dimen>
+    <dimen name="m150">150dp</dimen>
+    <dimen name="m16">16dp</dimen>
+    <dimen name="m2">2dp</dimen>
+    <dimen name="m20">20dp</dimen>
+    <dimen name="m24">24dp</dimen>
+    <dimen name="m32">32dp</dimen>
+    <dimen name="m34">34dp</dimen>
+    <dimen name="m4">4dp</dimen>
+    <dimen name="m40">40dp</dimen>
+    <dimen name="m45">45dp</dimen>
+    <dimen name="m5">5dp</dimen>
+    <dimen name="m54">54dp</dimen>
+    <dimen name="m60">60dp</dimen>
+    <dimen name="m65">65dp</dimen>
+    <dimen name="m72">72dp</dimen>
+    <dimen name="m8">8dp</dimen>
+    <dimen name="m90">90dp</dimen>
+    <dimen name="p12">12dp</dimen>
+    <dimen name="p16">16dp</dimen>
+    <dimen name="p2">2dp</dimen>
+    <dimen name="p4">4dp</dimen>
+    <dimen name="p8">8dp</dimen>
+    <dimen name="regular_font">14sp</dimen>
+    <dimen name="size_0dp">0dp</dimen>
+    <dimen name="small">8sp</dimen>
+    <dimen name="small_subtitle">10sp</dimen>
+    <dimen name="subtitle_1_regular">16sp</dimen>
+    <dimen name="subtitle_2_medium">14sp</dimen>
+    <string name="Business_Vertical">আপনার ব্যবসা প্রতিষ্ঠানের ধরন*</string>
+    <string name="Change">Change</string>
+    <string name="account_btm_nav">একাউন্ট</string>
+    <string name="account_options">একাউন্ট অপশনস</string>
+    <string name="account_summary">একাউন্ট সামারি</string>
+    <string name="add_more_btn">এ্যাড করুন</string>
+    <string name="add_new_address">নতুন ঠিকানা এড করুন:</string>
+    <string name="add_new_address_button">নতুন ঠিকানা এড করুন</string>
+    <string name="address">ব্যবসা প্রতিষ্ঠানের পূর্ন ঠিকানা*</string>
+    <string name="addressList_bottom_text">*সর্বোচ্চ ৪টি এড্রেস এড করতে পারবেন।</string>
+    <string name="address_box">এড্রেস বক্স </string>
+    <string name="address_nav_drawer">এড্রেস</string>
+    <string name="alert_icon">alert icon</string>
+    <string name="all_shipping_addresses">সকল শিপিং এড্রেস সমূহ</string>
+    <string name="already_registered">আপনার কি পূর্বে নিবন্ধন করা আছে? তাহলে লগইন করুন</string>
+    <string name="amount_hint">25</string>
+    <string name="app_name">PriyoShop Retail</string>
+    <string name="apply_btn_text">এপ্লাই</string>
+    <string name="button_done">Done</string>
+    <string name="caption_phone_no">Phone no</string>
+    <string name="cart">কার্ট</string>
+    <string name="cart_title">কার্ট :</string>
+    <string name="categories">ক্যাটাগরি</string>
+    <string name="change">Change</string>
+    <string name="chat_btm_nav">চ্যাট</string>
+    <string name="chat_screen_comming_soon">শীঘ্রই আসছে</string>
+    <string name="click_to_change_the_number">Click to change the number ?</string>
+    <string name="comma">,</string>
+    <string name="contact_person_name">যোগাযোগকারী ব্যক্তির নাম</string>
+    <string name="contact_person_phone">যোগাযোগকারী ব্যাক্তির ফোন নাম্বার</string>
+    <string name="current_shipping_address">বর্তমান শিপিং এড্রেস:</string>
+    <string name="deals_btm_nav">ডিলস</string>
+    <string name="delete">ডিলিট</string>
+    <string name="delivery_text">আপনার অর্ডারকৃত পণ্য দ্রুত ডেলিভারি করা হবে</string>
+    <string name="details">বিস্তারিত</string>
+    <string name="dhaka">dhaka</string>
+    <string name="dialog_title">This is title</string>
+    <string name="discount">ডিসকাউন্ট</string>
+    <string name="discount_code_hint_text">write your code hare</string>
+    <string name="discount_code_title_text">ডিসকাউন্ট কোড আছে ?</string>
+    <string name="discount_cupon">discount cupon</string>
+    <string name="district_registration">জেলা নির্বাচন করুন*</string>
+    <string name="edit">এডিট</string>
+    <string name="edit_profile">এডিট করুন</string>
+    <string name="edit_your_profile">Edit your profile:</string>
+    <string name="email_address_hint">আপনার ইমেইল*</string>
+    <string name="error_email">Error email</string>
+    <string name="error_enter_address">Enter address</string>
+    <string name="error_enter_business_vertical">Enter business vertical</string>
+    <string name="error_enter_contact_number">Enter contact number</string>
+    <string name="error_enter_district">Enter district</string>
+    <string name="error_enter_name">Enter name</string>
+    <string name="error_enter_nid_number" translatable="false">Enter nid number</string>
+    <string name="error_enter_police_station">Enter police station</string>
+    <string name="error_enter_shop_name">Enter shop name</string>
+    <string name="error_give_eleven_length_numbers" translatable="false">Please give 11 length numbers</string>
+    <string name="error_network_issue">Network issue</string>
+    <string name="error_please_give_valid_nid_numbers" translatable="false">Please give valid nid number</string>
+    <string name="error_please_give_valid_numbers" translatable="false">Please give valid number</string>
+    <string name="error_retry">Retry</string>
+    <string name="filter">Filter</string>
+    <string name="format_time" translatable="false">Time %s - %s</string>
+    <string name="go_back_home">হোম পেজে আসুন</string>
+    <string name="go_backward">পিছনে যান</string>
+    <string name="go_forward">এগিয়ে যান</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_enter_phone_number">ফোন নাম্বার</string>
+    <string name="hisab_btm_nav">হিসাব</string>
+    <string name="image">image</string>
+    <string name="image_content_description" translatable="false">image_content_description</string>
+    <string name="image_delete_button">image delete button</string>
+    <string name="invalid_username">Not a valid phone number</string>
+    <string name="invoice_no_hint">2022–567654</string>
+    <string name="kg">Kg</string>
+    <string name="login_title_text">এখানে আপনার ফোন নাম্বার দিয়ে লগইন/নিবন্ধন করুন</string>
+    <string name="logout_nav_drawer">লগআউট</string>
+    <string name="mandatory">Mandatory</string>
+    <string name="message_enter_otp_code" translatable="false">Enter Otp Code</string>
+    <string name="message_we_are_sorry">We are sorry</string>
+    <string name="messenger_btm_nav">মেসেঞ্জার</string>
+    <string name="mirpur">Mirpur</string>
+    <string name="my_documents">My Documents:</string>
+    <string name="my_orders">অর্ডার:</string>
+    <string name="my_profile">My Profile:</string>
+    <string name="my_shop_photos">My shop photos:</string>
+    <string name="na_bangla">না</string>
+    <string name="nid">NID:</string>
+    <string name="nid_error_text">Nid must be 16 character</string>
+    <string name="nid_number_registration">আপনার জাতীয় পরিচয় পত্রের নম্বর</string>
+    <string name="no">No</string>
+    <string name="no_internet">আপনার ইন্টারনেট সংযোগ পেতে সমস্যা হচ্ছে</string>
+    <string name="no_product_found">কোনো পণ্য পাওয়া যায়নি , আবার চেষ্টা করুন</string>
+    <string name="ok">ওকে</string>
+    <string name="order_btm_nav">অর্ডার</string>
+    <string name="order_no">অর্ডার নং:</string>
+    <string name="order_success">আপনার অর্ডারটি সফল হয়েছে।</string>
+    <string name="otp_bottom_text">কোনো ওটিপি পাননি?</string>
+    <string name="otp_number">আপনার নাম্বারে ৪ সংখ্যার ওটিপি এসেছে, এটি এখানে প্রদান করুন।</string>
+    <string name="otp_title_text">please provide the 4 digit otp you should get within 60 second</string>
+    <string name="owner_name" translatable="false">owner Name</string>
+    <string name="payment">payment</string>
+    <string name="payment_method">পেমেন্ট মেথড</string>
+    <string name="phone_number">ফোন নাম্বার*</string>
+    <string name="phone_number_registration">আপনার ফোন নাম্বার*</string>
+    <string name="picture">ছবি</string>
+    <string name="place_order">অর্ডার করুন</string>
+    <string name="police_station">থানা নির্বাচন করুন*</string>
+    <string name="price_hint">1000</string>
+    <string name="priyoshop_retail">PriyoShop Retail</string>
+    <string name="proceed_next_btn">প্রসেস করুন</string>
+    <string name="process_btn">Process</string>
+    <string name="product_name">Product Name</string>
+    <string name="products">Products</string>
+    <string name="profile_nav_drawer">প্রোফাইল</string>
+    <string name="qty">Qty:</string>
+    <string name="re_order">re order</string>
+    <string name="register">please register</string>
+    <string name="register_btn">সাবমিট করুন</string>
+    <string name="resend_otp">পুনরায় পাঠান</string>
+    <string name="rice_hint_text">Rice :</string>
+    <string name="search">খুঁজুন</string>
+    <string name="search_hare">search hare</string>
+    <string name="see_all_home">সবগুলো দেখুন</string>
+    <string name="select_your_address">আপনার এড্রেস সিলেক্ট করুন</string>
+    <string name="shipping_charge">শিপিং চার্জ</string>
+    <string name="shop_address">Shop Address</string>
+    <string name="shop_name_registration">দোকানের নাম*</string>
+    <string name="sub_total">সর্বমোট</string>
+    <string name="submit_button">সাবমিট করুন</string>
+    <string name="taka_text">Taka</string>
+    <string name="take_picture">take picture</string>
+    <string name="terms_and_condition_text">আমি সকল শর্তের ব্যাপারে জেনে অর্ডার করছি।</string>
+    <string name="terms_condition_text">নিবন্ধনের পূর্বে অবশ্যই আমাদের শর্তগুলো পড়ে নিবেন।</string>
+    <string name="title_account">একাউন্ট</string>
+    <string name="title_add_address">Add Address</string>
+    <string name="title_address">Address</string>
+    <string name="title_log_in">Log in</string>
+    <string name="title_order_details">অর্ডার ডিটেইলস</string>
+    <string name="title_registration">রেজিষ্ট্রেশন</string>
+    <string name="title_update_address">Update Address</string>
+    <string name="total">total</string>
+    <string name="totalBill">আপনার মোট বিল:</string>
+    <string name="total_price">মোট মূল্য</string>
+    <string name="total_prixe">total prixe</string>
+    <string name="ur_bill">আপনার বিল:</string>
+    <string name="user_profile_option_hint" translatable="false">bakir jonne abedon korun</string>
+    <string name="verify_otp_button">ভেরিফাই করুন</string>
+    <string name="welcome" translatable="false">welcome user</string>
+    <string name="write_product_name_here">পণ্য খুঁজুন (যেমনঃ তেল, চাল, চিনি)</string>
+    <string name="write_product_qty_here">পণ্যের পরিমাণ</string>
+    <string name="write_ur_code">এখানে কোড লিখুন</string>
+    <string name="yes">Yes</string>
+    <string name="yes_bangla">হ্যাঁ</string>
+    <string name="your_name_registration">আপনার নাম*</string>
+    <string name="your_nid_number">আপনার NID*</string>
+    <string name="your_total_bill">Your Total Bill :</string>
+    <style name="AlertDialogCustom" parent="android:Theme.Holo.Dialog">
+        <item name="android:textColor">#00FF00</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:windowMinWidthMajor">90%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+    </style>
+    <style name="AlertDialogTransparentBg" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+        <item name="android:scrollbarThumbVertical">@android:color/transparent</item>
+    </style>
+    <style name="CustomActivityAnimation" parent="@android:style/Animation.Activity">
+
+    </style>
+    <style name="toolbarSubTitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
+        <item name="android:textSize">12sp</item>
+        <item name="lineHeight">0dp</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+    <style name="toolbarTitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">16dp</item>
+        <item name="lineHeight">0dp</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+</resources>

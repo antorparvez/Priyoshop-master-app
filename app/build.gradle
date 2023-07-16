@@ -1,0 +1,302 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'dagger.hilt.android.plugin'
+apply plugin: 'androidx.navigation.safeargs.kotlin'
+
+android {
+    namespace 'com.priyoshop.master'
+    compileSdkVersion AppConfig.compileSdkVersion
+
+    defaultConfig {
+        applicationId AppConfig.applicationId
+        minSdkVersion AppConfig.minSdkVersion
+        targetSdkVersion AppConfig.targetSdkVersion
+        versionCode AppConfig.versionCode
+        versionName AppConfig.versionName
+        testInstrumentationRunner AppConfig.testRunner
+        multiDexEnabled true
+    }
+
+    packagingOptions {
+        resources {
+            excludes += ['META-INF/proguard/androidx-annotations.pro']
+        }
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+           // signingConfig signingConfigs.release
+        }
+    }
+
+    flavorDimensions "appType"
+    productFlavors {
+        retail {
+            dimension "appType"
+            versionCode 1
+            versionName "6.0.0"
+            applicationId "com.priyoshop.zero"
+            resValue "string", "app_name", "Priyoshop Retail"
+            manifestPlaceholders = [appIcon: "@mipmap/ic_launcher"]
+            // Add other retail-specific configurations here
+        }
+
+        logistic {
+            dimension "appType"
+            versionCode 1
+            versionName "1.0.0"
+            applicationId "com.priyoshop.logistic"
+            resValue "string", "app_name", "Priyoshop Logistic"
+            manifestPlaceholders = [appIcon: "@mipmap/ic_launcher"]
+            // Add other logistic-specific configurations here
+        }
+    }
+
+    sourceSets {
+        retail {
+            java.srcDirs = ['src/app/retail/java']
+            res.srcDirs = ['src/app/retail/res']
+        }
+
+        logistic {
+            java.srcDirs = ['src/app/logistic/java']
+            res.srcDirs = ['src/app/logistic/res']
+        }
+    }
+    renameAPK(applicationVariants, defaultConfig)
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+def renameAPK(applicationVariants, defaultConfig) {
+    applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            def formattedDate = new Date().format('dd-MM-yy')
+            def flavorName = variant.productFlavors[0].name.capitalize()
+            outputFileName = "Priyoshop ${flavorName}_" + defaultConfig.versionName + "_" + defaultConfig.versionCode + "_" + formattedDate + "_" + variant.name + ".apk"
+        }
+    }
+}
+
+/*signingConfigs {
+    release {
+        storeFile file('F:\\New folder\\key_info\\priyoshop_new_keystore.jks')
+        storePassword 'Priyoshop@n-staion#23'
+        keyAlias 'PriyoshopNSKey'
+        keyPassword 'Priyoshop@n-staion#23'
+    }
+}*/
+
+
+dependencies {
+    implementation project(ModulesDep.assets)
+    implementation project(ModulesDep.navigation)
+    implementation project(ModulesDep.common)
+
+    // Android Dep
+    implementation AppDep.material
+    implementation AppDep.appCompat
+    implementation AppDep.fragment
+    implementation AppDep.activity
+    implementation AppDep.recyclerview
+    implementation AppDep.cardView
+    implementation AppDep.viewModel
+    implementation AppDep.liveData
+    implementation AppDep.constraintLayout
+    implementation AppDep.preference
+    implementation AppDep.lifecycle
+
+    // App Dep
+    implementation AppDep.hiltAndroid
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    kapt AppDep.hiltCompiler
+
+    implementation AppDep.rxJava3
+    implementation AppDep.rxJava3Android
+
+    implementation AppDep.retrofit
+    implementation AppDep.retrofitGsonConverter
+    implementation AppDep.rxJava3adapter
+    implementation AppDep.okhHttp3
+    implementation AppDep.okhHttp3Interceptor
+    implementation AppDep.gson
+    implementation AppDep.timber
+
+    implementation AppDep.navigationFragment
+    implementation AppDep.navigationUi
+
+    implementation AppDep.circleImageview
+
+    implementation AppDep.room
+    implementation AppDep.roomRuntime
+    kapt AppDep.roomCompiler
+
+    testImplementation AppDep.junit
+    androidTestImplementation AppDep.extJunit
+    androidTestImplementation AppDep.espresso
+
+    implementation AppDep.mapLocation
+}
+
+
+/*
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'dagger.hilt.android.plugin'
+    id 'androidx.navigation.safeargs.kotlin'
+}
+android {
+    namespace 'com.test.com.priyoshop.master'
+*/
+/*    signingConfigs {
+
+        release {
+            storeFile file('F:\\New folder\\key_info\\priyoshop_new_keystore.jks')
+            storePassword 'Priyoshop@n-staion#23'
+            keyAlias 'PriyoshopNSKey'
+            keyPassword 'Priyoshop@n-staion#23'
+        }
+    }*//*
+
+    compileSdk AppConfig.compileSdkVersion
+    defaultConfig {
+        multiDexEnabled true
+        applicationId AppConfig.applicationId
+        minSdk AppConfig.minSdkVersion
+        targetSdk AppConfig.targetSdkVersion
+        versionCode AppConfig.versionCode
+        versionName AppConfig.versionName
+        testInstrumentationRunner AppConfig.testRunner
+       // signingConfig signingConfigs.release
+    }
+    packagingOptions {
+        resources {
+            excludes += ['META-INF/proguard/androidx-annotations.pro']
+        }
+    }
+
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+
+        release {
+            initWith debug
+            debuggable = false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    renameAPK(applicationVariants, defaultConfig)
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+    buildFeatures{
+        viewBinding  true
+    }
+}
+def renameAPK(applicationVariants, defaultConfig) {
+    applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            def formattedDate = new Date().format('dd-MM-yy')
+            outputFileName = "Priyoshop retail" + "_" +  defaultConfig.versionName + "_" + defaultConfig.versionCode + "_" + formattedDate + "_" + variant.name + ".apk"
+        }
+    }
+}
+
+dependencies {
+    implementation project(ModulesDep.assets)
+    implementation project(ModulesDep.navigation)
+    implementation project(ModulesDep.common)
+
+
+    //////Android Dep
+    implementation AppDep.material
+    implementation AppDep.appCompat
+    implementation AppDep.fragment
+    implementation AppDep.activity
+    implementation AppDep.recyclerview
+    implementation AppDep.cardView
+    implementation AppDep.viewModel
+    implementation AppDep.liveData
+    implementation AppDep.constraintLayout
+    implementation AppDep.preference
+    implementation AppDep.lifecycle
+
+
+    //App Dep
+    implementation AppDep.hiltAndroid
+    kapt AppDep.hiltCompiler
+
+    implementation AppDep.rxJava3
+    implementation AppDep.rxJava3Android
+
+    implementation AppDep.retrofit
+    implementation AppDep.retrofitGsonConverter
+    implementation AppDep.rxJava3adapter
+    implementation AppDep.okhHttp3
+    implementation AppDep.okhHttp3Interceptor
+    implementation AppDep.gson
+    implementation AppDep.timber
+
+    implementation AppDep.navigationFragment
+    implementation AppDep.navigationUi
+
+    implementation AppDep.circleImageview
+
+    implementation AppDep.room
+    implementation AppDep.roomRuntime
+    kapt AppDep.roomCompiler
+
+    testImplementation AppDep.junit
+    androidTestImplementation AppDep.extJunit
+    androidTestImplementation AppDep.espresso
+
+    implementation AppDep.mapLocation
+}*/

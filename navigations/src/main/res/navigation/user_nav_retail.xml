@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:id="@+id/user_nav_retail"
+app:startDestination="@id/fragment2">
+
+<fragment
+    android:id="@+id/fragment1"
+    android:name="com.priyoshop.master.Fragment1"
+    android:label="Fragment1">
+</fragment>
+
+
+
+<fragment
+    android:id="@+id/fragment2"
+    android:name="com.priyoshop.master.Fragment2"
+    android:label="Fragment2">
+    <action
+        android:id="@+id/action_fragment2_to_fragment1"
+        app:destination="@id/fragment1" />
+</fragment>
+
+
+
+
+</navigation>

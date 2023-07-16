@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbarconst"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:paddingStart="@dimen/m12"
+    android:paddingTop="@dimen/m4"
+    android:paddingEnd="@dimen/m16"
+    android:paddingBottom="@dimen/m8"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <ImageView
+        android:id="@+id/toolbarBackIV"
+        android:layout_width="@dimen/m32"
+        android:layout_height="@dimen/m24"
+        android:contentDescription="@string/image_content_description"
+        android:paddingTop="@dimen/m2"
+        android:paddingBottom="@dimen/m2"
+        android:src="@drawable/ic_arrow_back_white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/white" />
+
+    <com.priyoshop.assets.view.CustomTV
+        android:id="@+id/titleTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/m8"
+        android:layout_marginEnd="@dimen/m4"
+        android:padding="@dimen/m4"
+        android:textColor="@color/white"
+        android:textSize="@dimen/body_1_regular"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbarBackIV"
+        app:layout_constraintEnd_toStartOf="@+id/toolbarCartIV"
+        app:layout_constraintStart_toEndOf="@+id/toolbarBackIV"
+        app:layout_constraintTop_toTopOf="@+id/toolbarBackIV"
+        tools:text="Title Text" />
+
+    <ImageView
+        android:id="@+id/toolbarCartIV"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="@dimen/m8"
+        android:backgroundTint="@color/white"
+        android:contentDescription="@string/image_content_description"
+        android:src="@drawable/ic_cart"
+        app:layout_constraintBottom_toBottomOf="@id/titleTV"
+        app:layout_constraintEnd_toStartOf="@+id/homeImg"
+        app:layout_constraintTop_toTopOf="@id/titleTV" />
+
+    <com.priyoshop.assets.view.CustomTV
+        android:id="@+id/cartBadgeIV"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_marginTop="@dimen/m4"
+        android:layout_marginEnd="@dimen/m2"
+        android:background="@drawable/bg_round_stroke"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toEndOf="@+id/toolbarCartIV"
+        app:layout_constraintTop_toTopOf="@+id/toolbarCartIV" />
+
+    <ImageView
+        android:id="@+id/homeImg"
+        android:layout_width="@dimen/m24"
+        android:layout_height="@dimen/m24"
+        android:layout_marginEnd="@dimen/m8"
+        android:contentDescription="@string/image_content_description"
+        android:src="@drawable/ic_home"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbarBackIV"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbarBackIV"
+        app:tint="@color/white" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/cartGv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:constraint_referenced_ids="toolbarCartIV, cartBadgeIV" />
+</androidx.constraintlayout.widget.ConstraintLayout>

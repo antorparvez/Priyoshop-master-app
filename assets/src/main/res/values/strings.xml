@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PriyoShop Retail</string>
+
+    <!--description string resources -->
+    <string name="image_content_description" translatable="false">image_content_description</string>
+    <!--description string resources -->
+
+    <!--Title string resources -->
+    <string name="title_log_in">Log in</string>
+    <string name="title_registration">রেজিষ্ট্রেশন</string>
+    <string name="account_summary">একাউন্ট সামারি</string>
+    <string name="title_account">একাউন্ট</string>
+    <string name="account_options">একাউন্ট অপশনস</string>
+    <string name="all_shipping_addresses">সকল শিপিং এড্রেস সমূহ</string>
+
+ <!--   <string name="my_profile">প্রোফাইল</string>-->
+    <string name="my_profile">My Profile:</string>
+    <string name="current_shipping_address">বর্তমান শিপিং এড্রেস:</string>
+    <string name="my_shop_photos">My shop photos:</string>
+    <string name="my_documents">My Documents:</string>
+    <string name="edit_your_profile">Edit your profile:</string>
+    <!--Title string resources -->
+
+    <!--Message string resources -->
+    <string name="message_we_are_sorry">We are sorry</string>
+    <string name="message_enter_otp_code" translatable="false">Enter Otp Code</string>
+    <string name="addressList_bottom_text">*সর্বোচ্চ ৪টি এড্রেস এড করতে পারবেন।</string>
+    <string name="order_success">আপনার অর্ডারটি সফল হয়েছে।</string>
+    <!--Message string resources -->
+
+    <!--Format string resources -->
+    <string name="format_time" translatable="false">Time %s - %s</string>
+    <!--Format string resources -->
+
+    <!--Caption string resources -->
+    <string name="caption_phone_no">Phone no</string>
+    <string name="filter">Filter</string>
+
+    <string name="your_total_bill">Your Total Bill :</string>
+    <string name="taka_text">Taka</string>
+    <string name="qty">Qty:</string>
+    <string name="total_prixe">total prixe</string>
+    <string name="discount_cupon">discount cupon</string>
+    <string name="total">total</string>
+    <string name="nid">NID:</string>
+    <!--Caption string resources -->
+
+
+    <!--Button text resources -->
+    <string name="submit_button">সাবমিট করুন</string>
+    <string name="button_done">Done</string>
+    <string name="add_new_address_button">নতুন ঠিকানা এড করুন</string>
+    <string name="change">Change</string>
+
+    <string name="payment">payment</string>
+    <string name="re_order">re order</string>
+    <!--Button text resources -->
+
+    <!--Error string resources -->
+    <string name="error_give_eleven_length_numbers" translatable="false">Please give 11 length numbers</string>
+    <string name="error_please_give_valid_numbers" translatable="false">Please give valid number</string>
+    <string name="error_please_give_valid_nid_numbers" translatable="false">Please give valid nid number</string>
+    <string name="error_retry">Retry</string>
+    <string name="error_network_issue">Network issue</string>
+    <string name="error_enter_contact_number">Enter contact number</string>
+    <string name="error_enter_name">Enter name</string>
+    <string name="error_enter_shop_name">Enter shop name</string>
+    <string name="error_enter_nid_number" translatable="false">Enter nid number</string>
+    <string name="error_enter_district">Enter district</string>
+    <string name="error_enter_police_station">Enter police station</string>
+    <string name="error_enter_business_vertical">Enter business vertical</string>
+    <string name="error_enter_address">Enter address</string>
+    <string name="error_email">Error email</string>
+    <string name="nid_error_text">Nid must be 16 character</string>
+    <!--Error string resources -->
+
+
+    <!--Hint string resources -->
+    <string name="user_profile_option_hint" translatable="false">bakir jonne abedon korun</string>
+    <string name="shop_name_registration">দোকানের নাম*</string>
+    <string name="nid_number_registration">আপনার জাতীয় পরিচয় পত্রের নম্বর</string>
+    <!--    <string name="shop_name">My Shop Name</string>-->
+    <string name="owner_name" translatable="false">owner Name</string>
+    <string name="edit_profile">এডিট করুন</string>
+    <string name="hint_enter_phone_number">ফোন নাম্বার</string>
+    <!--    <string name="hint_enter_phone_number">Enter phone number</string>-->
+    <string name="invoice_no_hint">2022–567654</string>
+    <string name="your_nid_number">আপনার NID*</string>
+    <string name="email_address_hint">আপনার ইমেইল*</string>
+    <string name="otp_number">আপনার নাম্বারে ৪ সংখ্যার ওটিপি এসেছে, এটি এখানে প্রদান করুন।</string>
+    <!--Hint string resources -->
+
+    <!--  <string name="login_title_text">Please Login/Register with your phone number</string> -->
+    <string name="login_title_text">এখানে আপনার ফোন নাম্বার দিয়ে লগইন/নিবন্ধন করুন</string>
+    <!--<string name="terms_condition_text">নিবন্ধনের পূর্বে অবশ্যই আমাদের <b>শর্তগুলো</b> পড়ে নিবেন।</string>-->
+    <string name="terms_condition_text">নিবন্ধনের পূর্বে অবশ্যই আমাদের শর্তগুলো পড়ে নিবেন।</string>
+    <!--    <string name="terms_condition_text">Read terms/conditions</string>-->
+    <string name="phone_number">ফোন নাম্বার*</string>
+    <string name="phone_number_registration">আপনার ফোন নাম্বার*</string>
+    <!--    <string name="phone_number">phone number</string>-->
+    <string name="invalid_username">Not a valid phone number</string>
+
+
+    <!-- TODO: Otp page Strings -->
+    <string name="otp_title_text">please provide the 4 digit otp you should get within 60 second</string>
+    <string name="verify_otp_button">ভেরিফাই করুন</string>
+    <!--    <string name="submit_otp_button">Submit Otp</string>-->
+    <string name="otp_bottom_text">কোনো ওটিপি পাননি?</string>
+    <string name="resend_otp">পুনরায় পাঠান</string>
+
+    <!-- TODO: Bottom Navigation page Strings -->
+    <string name="order_btm_nav">অর্ডার</string>
+    <string name="hisab_btm_nav">হিসাব</string>
+    <string name="deals_btm_nav">ডিলস</string>
+    <string name="chat_btm_nav">চ্যাট</string>
+    <string name="messenger_btm_nav">মেসেঞ্জার</string>
+    <string name="account_btm_nav">একাউন্ট</string>
+
+    <!-- TODO: Navigation drawer page Strings -->
+    <string name="profile_nav_drawer">প্রোফাইল</string>
+    <string name="address_nav_drawer">এড্রেস</string>
+    <string name="logout_nav_drawer">লগআউট</string>
+
+    <!-- TODO: chat Screen page Strings -->
+    <string name="chat_screen_comming_soon">শীঘ্রই আসছে</string>
+
+    <!-- TODO: Cart Screen page Strings -->
+    <string name="write_ur_code">এখানে কোড লিখুন</string>
+    <string name="apply_btn_text">এপ্লাই</string>
+    <string name="total_price">মোট মূল্য</string>
+    <string name="discount">ডিসকাউন্ট</string>
+    <string name="shipping_charge">শিপিং চার্জ</string>
+    <string name="sub_total">সর্বমোট</string>
+    <string name="add_more_btn">এ্যাড করুন</string>
+    <string name="proceed_next_btn">প্রসেস করুন</string>
+    <string name="discount_code_title_text">ডিসকাউন্ট কোড আছে ?</string>
+
+
+    <!-- TODO: order Screen page Strings -->
+    <string name="edit">এডিট</string>
+    <string name="delete">ডিলিট</string>
+    <string name="address_box">এড্রেস বক্স </string>
+    <string name="add_new_address">নতুন ঠিকানা এড করুন:</string>
+    <string name="select_your_address">আপনার এড্রেস সিলেক্ট করুন</string>
+    <string name="terms_and_condition_text">আমি সকল শর্তের ব্যাপারে জেনে অর্ডার করছি।</string>
+    <string name="place_order">অর্ডার করুন</string>
+    <string name="my_orders">অর্ডার:</string>
+    <string name="order_no">অর্ডার নং:</string>
+    <string name="details">বিস্তারিত</string>
+    <string name="ur_bill">আপনার বিল:</string>
+    <string name="payment_method">পেমেন্ট মেথড</string>
+    <string name="delivery_text">আপনার অর্ডারকৃত পণ্য দ্রুত ডেলিভারি করা হবে</string>
+    <string name="go_back_home">হোম পেজে আসুন</string>
+
+
+    <!-- TODO: Registration Page Strings-->
+    <string name="register">please register</string>
+    <string name="register_btn">সাবমিট করুন</string>
+    <string name="go_forward">এগিয়ে যান</string>
+    <string name="go_backward">পিছনে যান</string>
+    <!--    <string name="Register_button">Register</string>-->
+    <string name="already_registered">আপনার কি পূর্বে নিবন্ধন করা আছে? তাহলে লগইন করুন</string>
+    <string name="welcome" translatable="false">welcome user</string>
+    <string name="your_name_registration">আপনার নাম*</string>
+    <!--    <string name="your_name">Your Name</string>-->
+    <string name="write_product_name_here">পণ্য খুঁজুন (যেমনঃ তেল, চাল, চিনি)</string>
+    <string name="write_product_qty_here">পণ্যের পরিমাণ</string>
+    <string name="district_registration">জেলা নির্বাচন করুন*</string>
+    <string name="Business_Vertical">আপনার ব্যবসা প্রতিষ্ঠানের ধরন*</string>
+    <!--    <string name="district">District</string>-->
+    <string name="police_station">থানা নির্বাচন করুন*</string>
+    <!--    <string name="police_station">Police Station</string>-->
+    <string name="shop_address">Shop Address</string>
+    <string name="address">ব্যবসা প্রতিষ্ঠানের পূর্ন ঠিকানা*</string>
+    <string name="contact_person_name">যোগাযোগকারী ব্যক্তির নাম</string>
+    <string name="contact_person_phone">যোগাযোগকারী ব্যাক্তির ফোন নাম্বার</string>
+    <!--    <string name="address">Address:</string>-->
+    <string name="title_address">Address</string>
+    <string name="title_order_details">অর্ডার ডিটেইলস</string>
+    <string name="title_add_address">Add Address</string>
+    <string name="title_update_address">Update Address</string>
+    <string name="mandatory">Mandatory</string>
+    <string name="Change">Change</string>
+    <string name="click_to_change_the_number">Click to change the number ?</string>
+    <!--  Home Page Strings--> -->
+    <string name="see_all_home">সবগুলো দেখুন</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cart_title">কার্ট :</string>
+    <string name="cart">কার্ট</string>
+    <string name="no_product_found">কোনো পণ্য পাওয়া যায়নি , আবার চেষ্টা করুন</string>
+    <string name="totalBill">আপনার মোট বিল:</string>
+    <string name="discount_code_hint_text">write your code hare</string>
+    <string name="price_hint">1000</string>
+    <string name="process_btn">Process</string>
+    <string name="kg">Kg</string>
+    <string name="product_name">Product Name</string>
+    <string name="products">Products</string>
+    <string name="amount_hint">25</string>
+    <string name="search_hare">search hare</string>
+    <string name="search">খুঁজুন</string>
+    <string name="ok">ওকে</string>
+    <!--    <string name="search">Search</string>-->
+    <string name="rice_hint_text">Rice :</string>
+    <string name="dhaka">dhaka</string>
+    <string name="comma">,</string>
+    <string name="mirpur">Mirpur</string>
+    <!--    <string name="address">address</string>-->
+    <string name="priyoshop_retail">PriyoShop Retail</string>
+    <string name="categories">ক্যাটাগরি</string>
+
+
+    <string name="yes_bangla">হ্যাঁ</string>
+    <string name="na_bangla">না</string>
+
+    <string name="image">image</string>
+    <string name="image_delete_button">image delete button</string>
+    <string name="picture">ছবি</string>
+    <string name="take_picture">take picture</string>
+    <string name="dialog_title">This is title</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="alert_icon">alert icon</string>
+    <string name="no_internet">আপনার ইন্টারনেট সংযোগ পেতে সমস্যা হচ্ছে</string>
+</resources>
